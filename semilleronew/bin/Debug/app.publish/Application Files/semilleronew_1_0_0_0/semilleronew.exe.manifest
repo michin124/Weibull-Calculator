@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="semilleronew.exe" version="1.0.0.0" publicKeyToken="ac018ee8804e0219" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="semilleronew" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="semilleronew.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DocumentFormat.OpenXml.dll" size="4905336">
+      <assemblyIdentity name="DocumentFormat.OpenXml" version="2.11.3.0" publicKeyToken="8FB06CB64D019A17" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ryRd/SKJpPUGdNugDU8eYrPM2AekSWFAcxOqA/iEKE8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Excel.dll" size="77824">
+      <assemblyIdentity name="Excel" version="2.0.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lLofWDW4IEc5t73QPAUKibRSCGWRJhfF7Pc1sS/mJ+4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="semilleronew.exe" size="34264">
+      <assemblyIdentity name="semilleronew" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>FR/SjbtO9eA94ADCbuI10kwFhK2p6TMg5V+4fMsQCR0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SpreadsheetLight.dll" size="1432576">
+      <assemblyIdentity name="SpreadsheetLight" version="3.5.0.0" publicKeyToken="32FBB46DC1730C57" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qvvJCBFW0Yb+HnF5MKkqpQUWCxK4YtSxS4bhk5F50j4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Drawing.Common.dll" size="51248">
+      <assemblyIdentity name="System.Drawing.Common" version="4.0.0.1" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>X6ss9XMR2B9Nfflq0TpTJ1rlTP+2nsLkunt9xwaggKE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.IO.Packaging.dll" size="42568">
+      <assemblyIdentity name="System.IO.Packaging" version="4.0.5.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2ePr4MIIbKxGWlVQaB5aZfrhwn1nXLZJ5tLBmTb7HU8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="semilleronew.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-4AFEI5A\USER" issuerKeyHash="89d1d6cd081b4045eb13fc670de99ee28cae8e62" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>y1XdEDM5bjrAbA+cOOTgA8P+QdcrjUXTj1gQZox/Ors=</DigestValue></Reference></SignedInfo><SignatureValue>unYWlp+PsV+PdrSd6dsOLYO+MJEuWLoLWzRR+kgPzLV5gIsTUdvVPqXRFRMBE9vUlyRxHSpCyxAC3niuwXFo68sjrd+A7hS5RFjFzVkLo55Jfwu/hwHXEefbeHJLHyhpjey7gXCItF+7qB6ko7wC3UAZ+EfLhCUjd8+wMLviUVg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0V74Jwdn3O+1I8JjoZe9D/ZARud5NuDKU8V9UGp60/BUsdhAArqN1RBGOh05V+mpOP/TYh8L5RCGjwvPggXYDOZTUulqjHMzfm6W0l+NnDsRPCF8mwXzK0PV8Osn6Lakj20fGTjAIz4b+w1LMplXkkRTk5SyhZggV9OpuEWCCn0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bb3a7f8c6610588fd3458d2bd741fec303e0e4389c0f6cc03a6e393310dd55cb" Description="" Url=""><as:assemblyIdentity name="semilleronew.exe" version="1.0.0.0" publicKeyToken="ac018ee8804e0219" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-4AFEI5A\USER</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YXpy6aARHx85mVX/FDGxAlI5yu0Qr73ubLYcLE+ZOY4=</DigestValue></Reference></SignedInfo><SignatureValue>RAdkIWHJjmBU2izjGwHYueIJgWEsXpYp5FTMLUcJNhBKMosKO5KQgvMW0XQOeKA2FbXPKwEvWEYU+kOsrprNp8KOcfVGLFq26V4GSXsEwy04X/VChaFIRxDRd/IJr7odCqQVvZXoPksM7076z2MLI0xAkrv+Is3D63nJQo0X7v8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0V74Jwdn3O+1I8JjoZe9D/ZARud5NuDKU8V9UGp60/BUsdhAArqN1RBGOh05V+mpOP/TYh8L5RCGjwvPggXYDOZTUulqjHMzfm6W0l+NnDsRPCF8mwXzK0PV8Osn6Lakj20fGTjAIz4b+w1LMplXkkRTk5SyhZggV9OpuEWCCn0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQKgV0eSGSf5BD7T9UgSFceDANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtADQAQQBGAEUASQA1AEEAXABVAFMARQBSMB4XDTIzMDIwNzIxNTkwMloXDTI0MDIwODAzNTkwMlowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQA0AEEARgBFAEkANQBBAFwAVQBTAEUAUjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0V74Jwdn3O+1I8JjoZe9D/ZARud5NuDKU8V9UGp60/BUsdhAArqN1RBGOh05V+mpOP/TYh8L5RCGjwvPggXYDOZTUulqjHMzfm6W0l+NnDsRPCF8mwXzK0PV8Osn6Lakj20fGTjAIz4b+w1LMplXkkRTk5SyhZggV9OpuEWCCn0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBpFXrOP1osBPZJt921ELd8GnVYlhfxBjA9fDtWwDA9N9nAVWmM+XxW2FLjHM29C4hwKL2B78DURDSen6usZl7I468tfWiAldUGsgovCTtWvcQIK0f9mrmmgJDdOrASajhiK3EDgYGI/wApnhjmLcHjljG/2pdmnt/HP4cqgOxOSA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
